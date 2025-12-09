@@ -1,26 +1,42 @@
 package br.com.productcontrol.model;
 
 public class Produto {
-//
-//É a representação de um produto do supermercado.
-//
-//Um model é só uma classe que guarda dados.
-//
-//📦 Produto.java
-//
-//Exemplo de atributos que um produto tem:
 	
 	private String nome;
 	private double preco;
 	private int quantidade;
 	
-	// 📌 O que essa classe faz?
-//
-//✔️ Guarda dados
-//✔️ Tem getters e setters
-//✔️ Só representa o produto — não tem lógica de CRUD aqui
-
-
-
-
+	public Produto(String nome,double preco, int quantidade) {
+		this.nome = nome;
+		this.preco = preco;
+		this.quantidade = quantidade;
+		
+	}
+	
+	// Getter
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public double getPreco() {
+		return this.preco;
+	}
+	
+	public int getQuantidade() {
+		return this.quantidade;
+	}
+	
+	
+	// Setter
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
 }
