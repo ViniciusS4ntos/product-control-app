@@ -23,6 +23,8 @@ public class InputUtil {
 //✔️ Ajuda leitura
 //✔️ Evita repetição
 //✔️ Facilita validação
+		
+		// ola  samuel!
 
 		
 		
