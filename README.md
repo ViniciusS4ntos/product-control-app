@@ -20,7 +20,7 @@ O projeto segue a estrutura visualizada abaixo:
 
 ## 🛠️ Tecnologias Utilizadas
 * **Java 21**
-* **Maven** (Opcional para gestão de dependências)
+
 
 ## 🚀 Como executar
 1. Clone o repositório:
