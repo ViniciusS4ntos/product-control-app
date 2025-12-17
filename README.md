@@ -21,8 +21,12 @@ O projeto segue a estrutura visualizada abaixo:
 ## 🛠️ Tecnologias Utilizadas
 * **Java 21**
 
-
 ## 🚀 Como executar
+
+### Pré-requisitos
+* Ter o **JDK 21** instalado e configurado nas variáveis de ambiente.
+
+### Passo a passo
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/seu-usuario/product-control.git](https://github.com/seu-usuario/product-control.git)
