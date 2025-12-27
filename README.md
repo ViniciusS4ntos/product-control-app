@@ -1,7 +1,7 @@
 # Product Control System 🚀
 
 ![Java Version](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
 ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)
 
 Sistema de gerenciamento de produtos desenvolvido para fins de estudo de arquitetura e organização de código.
