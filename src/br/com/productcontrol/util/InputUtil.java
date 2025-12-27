@@ -1,33 +1,42 @@
 package br.com.productcontrol.util;
 
+import java.util.Scanner;
+
 public class InputUtil {
 
-	public static void main(String[] args) {
-		// Util = Classes auxiliares.
+    private static Scanner sc = new Scanner(System.in);
 
-//InputUtil.java serve para:
-//
-//Ler dados do teclado sem duplicar código
-//
-//Tratar erros de input
-//
-//Fornecer métodos prontos como:
+    // Ler inteiro
+    public static int lerInt(String mensagem) {
+        int valor;
+        while (true) {
+            System.out.print(mensagem);
+            try {
+                valor = Integer.parseInt(sc.nextLine());
+                return valor;
+            } catch (NumberFormatException e) {
+                System.out.println("Erro: Digite um número inteiro válido.");
+            }
+        }
+    }
 
-//		
-//		public static int lerInt(String mensagem)
-//		public static double lerDouble(String mensagem)
-//		public static String lerString(String mensagem)
-		
-		//O util:
-//
-//✔️ Ajuda leitura
-//✔️ Evita repetição
-//✔️ Facilita validação
-		
-	
+    // Ler double
+    public static double lerDouble(String mensagem) {
+        double valor;
+        while (true) {
+            System.out.print(mensagem);
+            try {
+                valor = Double.parseDouble(sc.nextLine());
+                return valor;
+            } catch (NumberFormatException e) {
+                System.out.println("Erro: Digite um número válido (use ponto para decimal).");
+            }
+        }
+    }
 
-		
-		
-	}
-
+    // Ler String
+    public static String lerString(String mensagem) {
+        System.out.print(mensagem);
+        return sc.nextLine();
+    }
 }
