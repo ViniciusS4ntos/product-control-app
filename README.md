@@ -30,3 +30,5 @@ O projeto segue a estrutura visualizada abaixo:
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/seu-usuario/product-control.git](https://github.com/seu-usuario/product-control.git)
+   ```
+2. Executa o App.java
