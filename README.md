@@ -1,34 +1,33 @@
-# Product Control System 🚀
+# Java CRUD Console 🚀
 
 ![Java Version](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
-![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)
 
-Sistema de gerenciamento de produtos desenvolvido para fins de estudo de arquitetura e organização de código.
+Projeto backend desenvolvido em **Java puro (console)** para estudo de **CRUD**, **lógica de programação** e **orientação a objetos**, utilizando listas em memória.
 
-## 📋 Sobre o Projeto
-O projeto é um CRUD que permite o controle de um inventário de produtos. Ele utiliza o padrão de camadas para separar as responsabilidades de acesso a dados, lógica de negócio e interface.
+---
 
-## 🏗️ Estrutura de Pastas
-O projeto segue a estrutura visualizada abaixo:
+## 📌 Funcionalidades
+- Cadastro de produtos
+- Listagem de produtos
+- Atualização de produtos
+- Remoção de produtos
+- Menu interativo no console
 
-- `dao`: (Data Access Object) Responsável pela persistência dos dados.
-- `main`: Ponto de entrada (`public static void main`).
-- `model`: Representação das entidades do sistema (Produto).
-- `service`: Camada onde residem as regras de negócio.
-- `util`: Ferramentas auxiliares (formatadores, leitores).
+---
 
 ## 🛠️ Tecnologias Utilizadas
-* **Java 21**
+- Java 21
+- Eclipse IDE
+- Collections (ArrayList)
 
-## 🚀 Como executar
+---
 
-### Pré-requisitos
-* Ter o **JDK 21** instalado e configurado nas variáveis de ambiente.
+## ▶️ Como executar
+- Ter o **JDK 21** instalado
+- Executar a classe `App.java`, que contém o método `main`
 
-### Passo a passo
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/product-control.git](https://github.com/seu-usuario/product-control.git)
-   ```
-2. Executa o App.java
+---
+
+## 🎯 Objetivo
+Projeto desenvolvido com fins educacionais para consolidar fundamentos da linguagem Java.
